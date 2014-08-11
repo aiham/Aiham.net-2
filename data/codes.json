@@ -1,0 +1,77 @@
+[
+  {
+    "name": "no-more-lies",
+    "description": "Normalises user input. Useful for web forms, REST APIs, etc.",
+    "tech": ["Javascript", "Mocha"],
+    "github": "https://github.com/aiham/no-more-lies",
+    "npm": "https://www.npmjs.org/package/no-more-lies",
+    "travis": "https://travis-ci.org/aiham/no-more-lies"
+  },
+  {
+    "name": "node-model.js",
+    "description": "Simple ORM to make connecting from Node to MySQL easier",
+    "tech": ["Javascript", "Node", "MySQL"],
+    "github": "https://github.com/aiham/node-model.js",
+    "npm": "https://www.npmjs.org/package/node-model.js"
+  },
+  {
+    "name": "npm-author-scrape",
+    "description": "Extracts data from an NPM author's profile page",
+    "tech": ["Javascript", "Node", "Mocha"],
+    "github": "https://github.com/aiham/npm-author-scrape",
+    "npm": "https://www.npmjs.org/package/npm-author-scrape",
+    "travis": "https://travis-ci.org/aiham/npm-author-scrape"
+  },
+  {
+    "name": "reddit-oauth",
+    "description": "Reddit API authentication wrapper for OAuth and passwords",
+    "tech": ["Javascript", "Node", "Mocha", "Reddit API"],
+    "github": "https://github.com/aiham/reddit-oauth",
+    "npm": "https://www.npmjs.org/package/reddit-oauth"
+  },
+  {
+    "name": "reddit-scrubber-cli",
+    "description": "Automated deletion of a Reddit user's posts and/or comments",
+    "tech": ["Javascript", "Node"],
+    "github": "https://github.com/aiham/RedditScrubber",
+    "npm": "https://www.npmjs.org/package/reddit-scrubber-cli"
+  },
+  {
+    "name": "valid8",
+    "description": "Validates user input. Useful for web forms, REST APIs, etc.",
+    "tech": ["Javascript", "Mocha"],
+    "github": "https://github.com/aiham/valid8",
+    "npm": "https://www.npmjs.org/package/valid8",
+    "travis": "https://travis-ci.org/aiham/valid8"
+  },
+  {
+    "name": "Gyudon.js",
+    "description": "2D canvas animations",
+    "tech": ["Javascript", "Canvas"],
+    "github": "https://github.com/aiham/Gyudon.js"
+  },
+  {
+    "name": "CommandLineInterface.php",
+    "description": "Turn a PHP script into a user friendly CLI program",
+    "tech": ["PHP"],
+    "github": "https://github.com/aiham/CommandLineInterface.php"
+  },
+  {
+    "name": "AnagramSolverCLI",
+    "description": "Command line anagram solver",
+    "tech": ["PHP"],
+    "github": "https://github.com/aiham/AnagramSolverCLI"
+  },
+  {
+    "name": "ApiInteface",
+    "description": "Call PHP functions from client-side Javascript",
+    "tech": ["PHP", "Javascript"],
+    "github": "https://github.com/aiham/ApiInteface"
+  },
+  {
+    "name": "FormatConvert",
+    "description": "Convert file formats (csv, json, xml, serialize)",
+    "tech": ["PHP"],
+    "github": "https://github.com/aiham/FormatConvert"
+  }
+]

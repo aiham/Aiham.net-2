@@ -1,0 +1,84 @@
+extends layout
+
+block content
+  header.bio
+    h1 Aiham Hammami
+    p Full stack developer from Sydney, Australia
+    p Currently concentrating on Javascript
+
+  noscript
+    section.warning
+      p You need to enable Javascript to view this page
+
+  section.loading(ng-hide='socials.length')
+    p Loading
+
+  section.socials(ng-show='socials.length')
+    h2 Profile
+    ul
+      li(ng-repeat='social in socials')
+        a(href='{{social.url}}', title='{{social.name}}')
+          img(ng-src='{{social.image}}', alt='{{social.name}}')
+        | 
+
+  section.techs(ng-show='techs.length')
+    h2 Tech
+    p(ng-show='techFilterName')
+      | Showing: {{techFilterName}} 
+      a(href='/') Cancel
+
+    ul
+      li(ng-repeat='tech in (techs = allTech())')
+        a(href='/tech/{{tech}}') {{tech}}
+        |  
+
+  section.projects(ng-show='filteredProjects.length')
+    h2 Projects
+    ul
+      li.project(ng-repeat='project in (filteredProjects = (projects | filter:techFilter))')
+        h3(ng-show='project.url')
+          a(href='{{project.url}}') {{project.name}}
+        h3(ng-hide='project.url')
+          | {{project.name}}
+        p {{project.description}}
+        p
+          em {{project.honour}}
+        div
+          strong Tech: 
+          ul.tech
+            li(ng-repeat='tech in sortTech(project.tech)')
+              a(href='/tech/{{tech}}') {{tech}}
+              |  
+        p(ng-show='project.github')
+          a(href='{{project.github}}') Github Repo
+        ul.screenshots(ng-show='project.screenshots')
+          li(ng-repeat='screenshot in project.screenshots')
+            img(ng-src='{{screenshot}}', alt='{{project.name}}')
+            |  
+
+  section.codes(ng-show='filteredCode.length')
+    h2 Code
+    ul
+      li.code(ng-repeat='code in (filteredCode = (codes | filter:techFilter))')
+        h3(ng-show='code.github')
+          a(href='{{code.github}}') {{code.name}}
+        h3(ng-hide='code.github')
+          | {{code.name}}
+        p {{code.description}}
+        div
+          strong Tech: 
+          ul.tech
+            li(ng-repeat='tech in sortTech(code.tech)')
+              a(href='/tech/{{tech}}') {{tech}}
+              |  
+        p(ng-show='code.npm')
+          a(href='{{code.npm}}') NPM
+        p(ng-show='code.travis')
+          a(href='{{code.travis}}') Travis-CI
+  footer
+    | &copy; 2014
+
+  script(src='/js/vendor/angular.min.js')
+  script(src='/js/vendor/angular-animate.min.js')
+  script(src='/js/app.js')
+

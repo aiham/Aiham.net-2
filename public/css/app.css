@@ -1,0 +1,79 @@
+.no-js .loading,
+.no-js .socials,
+.no-js .techs,
+.no-js .projects,
+.no-js .codes {
+  display: none;
+}
+
+.socials ul li {
+  display: inline;
+}
+
+.techs ul {
+  width: 50%;
+  text-align: center;
+}
+
+.techs ul li,
+.projects ul.tech li,
+.codes ul.tech li {
+  display: inline;
+  line-height: 2;
+}
+
+.techs ul li a,
+.projects ul.tech li a,
+.codes ul.tech li a {
+  background: skyblue;
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.projects ul.tech,
+.codes ul.tech {
+  display: inline;
+}
+
+.projects ul.screenshots li {
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  margin: 5em 0;
+}
+
+/* Animations */
+
+.project.ng-enter,
+.project.ng-move,
+.project.ng-leave,
+.code.ng-enter,
+.code.ng-move,
+.code.ng-leave {
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+}
+
+.project.ng-enter,
+.project.ng-move,
+.project.ng-leave.ng-leave-active,
+.code.ng-enter,
+.code.ng-move,
+.code.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+.project.ng-enter.ng-enter-active,
+.project.ng-move.ng-move-active,
+.project.ng-leave,
+.code.ng-enter.ng-enter-active,
+.code.ng-move.ng-move-active,
+.code.ng-leave {
+  opacity: 1;
+}

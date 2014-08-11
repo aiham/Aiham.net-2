@@ -1,0 +1,15 @@
+{
+  "name": "Aiham.net-2",
+  "description": "My personal web page",
+  "version": "0.0.0",
+  "homepage": "http://www.aiham.net",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.10.2",
+    "bootstrap": "~3.1.1",
+    "angular": "~1.2.x",
+    "angular-mocks": "~1.2.x",
+    "angular-animate": "~1.2.x"
+  }
+}
