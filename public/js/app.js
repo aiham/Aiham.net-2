@@ -165,9 +165,9 @@
 
       }, processPath);
 
-      $scope.techFilter = function (item) {
+      $scope.techFilter = function (project) {
 
-        return !$scope.techFilterName || item.tech.indexOf($scope.techFilterName) >= 0;
+        return !$scope.techFilterName || project.tech.indexOf($scope.techFilterName) >= 0;
 
       };
 
@@ -183,27 +183,22 @@
 
       $scope.allTech = function () {
 
-        var all = [];
-        if ($scope.projects && $scope.codes) {
-          all = $scope.projects.concat($scope.codes);
-        } else if ($scope.projects) {
-          all = $scope.projects;
-        } else if ($scope.codes) {
-          all = $scope.codes;
+        if (!$scope.projects) {
+          return [];
         }
 
-        var allTech = [];
-        all.map(function (item) {
-          item.tech.map(function (tech) {
-            if (allTech.indexOf(tech) < 0) {
-              allTech.push(tech);
+        var techNames = [];
+        $scope.projects.map(function (project) {
+          project.tech.map(function (tech) {
+            if (techNames.indexOf(tech) < 0) {
+              techNames.push(tech);
             }
           });
         });
 
-        allTech = $scope.sortTech(allTech);
+        techNames = $scope.sortTech(techNames);
 
-        return allTech;
+        return techNames;
 
       };
 
@@ -216,15 +211,6 @@
       $http.get('/api/projects').success(function (data) {
 
         $scope.projects = data;
-        loadedProjects = true;
-        processPath();
-
-      });
-
-      $http.get('/api/codes').success(function (data) {
-
-        $scope.codes = data;
-        loadedCodes = true;
         processPath();
 
       });
