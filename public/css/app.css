@@ -45,35 +45,3 @@ footer {
   text-align: center;
   margin: 5em 0;
 }
-
-/* Animations */
-
-.project.ng-enter,
-.project.ng-move,
-.project.ng-leave,
-.code.ng-enter,
-.code.ng-move,
-.code.ng-leave {
-  -webkit-transition: 0.3s linear all;
-  -moz-transition: 0.3s linear all;
-  -o-transition: 0.3s linear all;
-  transition: 0.3s linear all;
-}
-
-.project.ng-enter,
-.project.ng-move,
-.project.ng-leave.ng-leave-active,
-.code.ng-enter,
-.code.ng-move,
-.code.ng-leave.ng-leave-active {
-  opacity: 0;
-}
-
-.project.ng-enter.ng-enter-active,
-.project.ng-move.ng-move-active,
-.project.ng-leave,
-.code.ng-enter.ng-enter-active,
-.code.ng-move.ng-move-active,
-.code.ng-leave {
-  opacity: 1;
-}
