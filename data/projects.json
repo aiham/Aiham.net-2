@@ -1,10 +1,10 @@
 [
   {
     "name": "Aiham.net v2",
-    "description": "My personal web page",
+    "description": "My current personal web page. Includes responsive design",
     "url": "http://www.aiham.net",
     "github": "https://github.com/aiham/Aiham.net-2",
-    "tech": ["CSS", "HTML", "Javascript", "Angular"],
+    "tech": ["CSS", "HTML", "Javascript", "Angular", "Bootstrap", "jQuery", "Express", "Node"],
     "screenshots": ["/img/aihamnet2_1.png", "/img/aihamnet2_2.png", "/img/aihamnet2_3.png"]
   },
   {
@@ -16,7 +16,7 @@
     "screenshots": ["/img/scrubber_1.png", "/img/scrubber_2.png", "/img/scrubber_3.png"]
   },
   {
-    "name": "Hidden City (iOS/Android)",
+    "name": "Hidden City",
     "description": "Find new places to visit around your city via public transport with live updates",
     "honour": "Transport for NSW App Hot House 2012-13 Finalists",
     "tech": ["iPhone", "Android", "Haxe", "NME", "Python", "Django", "GTFS", "Open Street Maps"],
@@ -25,34 +25,33 @@
   {
     "name": "Hidden City Website",
     "description": "Landing page for Hidden City mobile app",
-    "url": "http://hiddencity.smallpotion.com",
     "tech": ["HTML", "Javascript", "CSS"],
     "screenshots": ["/img/hiddencitysite_1.png", "/img/hiddencitysite_2.png", "/img/hiddencitysite_3.png"]
   },
   {
-    "name": "Gobble em Up (iOS)",
+    "name": "Gobble em Up",
     "description": "Action mobile game. Fly around the screen while dodging the monsters",
     "honour": "Small Potion's first project",
     "tech": ["iPhone", "Objective-C", "Cocos-2D", "Accelerometer"],
     "screenshots": ["/img/gobble_1.png", "/img/gobble_2.png", "/img/gobble_3.png"]
   },
   {
-    "name": "UTS Housing App (Hybrid iOS/Android)",
+    "name": "UTS Housing App",
     "description": "App for tenants to create/update building maintenance tickets",
     "honour": "High Distinction mark for university project. Team leader of group of 10 students",
-    "tech": ["HTML", "Javascript", "CSS", "Backbone", "jQuery Mobile", "Python", "Django", "MySQL", "Cordova"],
+    "tech": ["HTML", "Javascript", "CSS", "Backbone", "jQuery Mobile", "Python", "Django", "MySQL", "Cordova", "iPhone", "Android"],
     "screenshots": ["/img/sdp_1.png", "/img/sdp_2.png", "/img/sdp_3.png"]
   },
   {
     "name": "Aiham.net v1",
-    "description": "My personal web page",
+    "description": "My previous personal web page",
     "github": "https://github.com/aiham/Aiham.net",
     "tech": ["HTML", "Javascript", "CSS", "PHP"],
     "screenshots": ["/img/aihamnet1_1.png", "/img/aihamnet1_2.png", "/img/aihamnet1_3.png"]
   },
   {
     "name": "Dymaxion Puzzle",
-    "description": "Jigsaw puzzle game using photos of Japan",
+    "description": "Jigsaw puzzle game using photos of Japan. A demonstration of my Gyudon.js library",
     "honour": "Google HTML5 Open Call 2011 Finalist. Invited to Google Developer Day Tokyo",
     "url": "http://apps.aiham.net/dymaxion",
     "github": "https://github.com/aiham/dymaxion",
@@ -64,15 +63,15 @@
     "description": "View your favourite Google My Maps on your iPhone",
     "url": "https://itunes.apple.com/au/app/chizuatter-for-iphone/id354990436",
     "tech": ["iPhone", "Objective-C", "Google Maps"],
-    "screenshots": ["/img/chizuatter_ios_1.png", "/img/chizuatter_ios_2.png", "/img/chizuatter_ios_3.png"]
+    "screenshots": ["/img/chizuatter_ios_1.jpeg", "/img/chizuatter_ios_2.png", "/img/chizuatter_ios_3.png"]
   },
   {
     "name": "Chizuatter (Android)",
     "description": "View your favourite Google My Maps on your Android phone",
-    "honour": "Angency's first Android app",
+    "honour": "The agency's first Android app",
     "url": "https://play.google.com/store/apps/details?id=com.p1d.chizuatter",
     "tech": ["Android", "Java", "Google Maps"],
-    "screenshots": ["/img/chizuatter_android_1.png", "/img/chizuatter_android_2.png", "/img/chizuatter_android_3.png"]
+    "screenshots": ["/img/chizuatter_android_1.webp", "/img/chizuatter_android_2.png", "/img/chizuatter_android_3.png"]
   },
   {
     "name": "Okaeri Favorites",
@@ -89,12 +88,12 @@
     "screenshots": ["/img/worldclock_1.png", "/img/worldclock_2.png", "/img/worldclock_3.png"]
   },
   {
-    "name": "Aiham's Mayhem",
-    "description": "Personal blog, forum and image gallery with admin panel",
-    "honour": "My first CMS built from scratch",
-    "url": "http://www.aihamsmayhem.com",
-    "tech": ["HTML", "CSS", "PHP", "MySQL"],
-    "screenshots": ["/img/aihamsmayhem_1.png", "/img/aihamsmayhem_2.png", "/img/aihamsmayhem_3.png"]
+    "name": "Solar System",
+    "description": "Representation of sizes and distances of planets in our solar system. A demonstration of my Gyudon.js library",
+    "url": "http://apps.aiham.net/solarsystemjs/",
+    "github": "https://github.com/aiham/SolarSystemJS",
+    "tech": ["Javascript", "Gyudon.js", "Canvas"],
+    "screenshots": ["/img/solarsystem_1.png", "/img/solarsystem_2.png", "/img/solarsystem_3.png"]
   },
   {
     "name": "no-more-lies",
