@@ -1,10 +1,20 @@
 (function () {
 
+  var refreshMasonry = function () {
+    $('.projects').masonry('reloadItems').masonry();
+  };
+
   $(function () {
 
     $('.no-js').each(function () {
       $(this).removeClass('no-js');
     });
+
+    $('.projects').masonry({
+      itemSelector: '.project'
+    });
+
+    setInterval(refreshMasonry, 500);
 
   });
 
@@ -15,6 +25,40 @@
     $locationProvider.html5Mode(true).hashPrefix('!');
 
   }]);
+
+  var preloadImage = function (source) {
+
+    if (document.image) {
+      var image = new Image();
+      image.src = source;
+    }
+
+  };
+
+  app.directive('hoverImage', function () {
+    return {
+      restrict: 'A',
+      link: function (scope, element, attributes) {
+
+        var originalSrc = attributes.src || attributes.ngSrc;
+        var hoverSrc = attributes.hoverImage;
+        if (typeof hoverSrc !== 'string' || hoverSrc.length < 1) {
+          hoverSrc = originalSrc.replace(/(\.\w+)$/, '_hover$1');
+        }
+
+        preloadImage(hoverSrc);
+
+        element.mouseenter(function () {
+          this.src = hoverSrc;
+        });
+        element.mouseleave(function () {
+          this.src = originalSrc;
+        });
+        element.tooltip({title: attributes.alt});
+
+      }
+    };
+  });
 
   app.controller('MainCtrl', [
     '$scope', '$http', '$location', '$rootScope',
@@ -30,26 +74,37 @@
 
       };
 
-      var loadedCodes = false, loadedProjects = false, initialPath = undefined;
+      var refreshScroll = function () {
 
+        $('body').animate({
+          scrollTop: $scope.techFilterName ? $('.currentlyShowing').offset().top : 0
+        }, 500);
+
+      };
+
+      var initialPath = undefined;
       var processPath = function (path) {
+
+        if (!$scope.projects) {
+          initialPath = path;
+          return;
+        }
 
         if (path === undefined) {
           path = initialPath;
         }
 
-        if (loadedCodes && loadedProjects) {
-          var tech = /^\/tech\/(.+)$/.exec(path);
-          if (tech && $scope.allTech().indexOf(tech[1]) >= 0) {
-            $scope.techFilterName = tech[1];
-          } else {
-            $scope.techFilterName = undefined;
-            $location.path('');
-          }
-          initialPath = undefined;
+        var tech = /^\/tech\/(.+)$/.exec(path);
+        if (tech && $scope.allTech().indexOf(tech[1]) >= 0) {
+          $scope.techFilterName = tech[1];
         } else {
-          initialPath = path;
+          $scope.techFilterName = undefined;
+          $location.path('');
         }
+        initialPath = undefined;
+
+        refreshScroll();
+        setTimeout(refreshMasonry, 100);
 
       };
 
