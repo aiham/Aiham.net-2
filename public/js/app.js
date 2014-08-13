@@ -1,8 +1,11 @@
 (function () {
 
-  Array.prototype.map.call(document.querySelectorAll('.no-js'), function (nojs) {
-    var c = nojs.className;
-    nojs.className = typeof c === 'string' ? c.replace('no-js', '') : '';
+  $(function () {
+
+    $('.no-js').each(function () {
+      $(this).removeClass('no-js');
+    });
+
   });
 
   var app = angular.module('app', ['ngAnimate']);
