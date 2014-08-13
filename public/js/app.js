@@ -60,6 +60,57 @@
     };
   });
 
+  app.filter('github', function () {
+
+    return function (input) {
+
+      input = input || '';
+
+      var github = /\/([^\/]+\/[^\/]+)$/.exec(input);
+      if (github) {
+        return github[1].replace(/\-/g, '--');
+      } else {
+        return '';
+      }
+
+    };
+
+  });
+
+  app.filter('npm', function () {
+
+    return function (input) {
+
+      input = input || '';
+
+      var npm = /\/([^\/]+)$/.exec(input);
+      if (npm) {
+        return npm[1];
+      } else {
+        return '';
+      }
+
+    };
+
+  });
+
+  app.filter('travis', function () {
+
+    return function (input) {
+
+      input = input || '';
+
+      var travis = /\/([^\/]+\/[^\/]+)$/.exec(input);
+      if (travis) {
+        return travis[1];
+      } else {
+        return '';
+      }
+
+    };
+
+  });
+
   app.controller('MainCtrl', [
     '$scope', '$http', '$location', '$rootScope',
     function ($scope, $http, $location, $rootScope) {
