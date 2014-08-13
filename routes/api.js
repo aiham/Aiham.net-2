@@ -9,8 +9,4 @@ router.get('/projects', function(req, res) {
   res.json(require('../data/projects'));
 });
 
-router.get('/codes', function(req, res) {
-  res.json(require('../data/codes'));
-});
-
 module.exports = router;
