@@ -25,7 +25,7 @@
   {
     "name": "Hidden City Website",
     "description": "Landing page for Hidden City mobile app",
-    "tech": ["HTML", "Javascript", "CSS"],
+    "tech": ["HTML", "Javascript", "CSS", "jQuery"],
     "screenshots": ["/img/hiddencitysite_1.png", "/img/hiddencitysite_2.png", "/img/hiddencitysite_3.png"]
   },
   {
@@ -46,7 +46,7 @@
     "name": "Aiham.net v1",
     "description": "My previous personal web page",
     "github": "https://github.com/aiham/Aiham.net",
-    "tech": ["HTML", "Javascript", "CSS", "PHP"],
+    "tech": ["HTML", "Javascript", "CSS", "PHP", "jQuery"],
     "screenshots": ["/img/aihamnet1_1.png", "/img/aihamnet1_2.png", "/img/aihamnet1_3.png"]
   },
   {
