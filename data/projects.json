@@ -159,10 +159,10 @@
     "github": "https://github.com/aiham/AnagramSolver"
   },
   {
-    "name": "ApiInteface",
+    "name": "ApiInterface",
     "description": "Call PHP functions from client-side Javascript",
     "tech": ["PHP", "Javascript"],
-    "github": "https://github.com/aiham/ApiInteface"
+    "github": "https://github.com/aiham/ApiInterface"
   },
   {
     "name": "FormatConvert",
