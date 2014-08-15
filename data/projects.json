@@ -88,6 +88,14 @@
     "screenshots": ["/img/worldclock_1.png", "/img/worldclock_2.png", "/img/worldclock_3.png"]
   },
   {
+    "name": "Minesweeper",
+    "description": "Minesweeper in Javascript",
+    "url": "http://apps.aiham.net/jsminesweeper/",
+    "github": "https://github.com/aiham/jsMinesweeper",
+    "tech": ["Javascript", "jQuery"],
+    "screenshots": ["/img/minesweeper_1.png", "/img/minesweeper_2.png", "/img/minesweeper_3.png"]
+  },
+  {
     "name": "Solar System",
     "description": "Representation of sizes and distances of planets in our solar system. A demonstration of my Gyudon.js library",
     "url": "http://apps.aiham.net/solarsystemjs/",
