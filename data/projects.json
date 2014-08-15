@@ -153,10 +153,10 @@
     "github": "https://github.com/aiham/CLI.php"
   },
   {
-    "name": "AnagramSolverCLI",
-    "description": "Command line anagram solver",
+    "name": "AnagramSolver",
+    "description": "Command line program that solves word puzzles including anagrams",
     "tech": ["PHP"],
-    "github": "https://github.com/aiham/AnagramSolverCLI"
+    "github": "https://github.com/aiham/AnagramSolver"
   },
   {
     "name": "ApiInteface",
