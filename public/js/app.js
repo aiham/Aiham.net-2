@@ -127,7 +127,7 @@
 
       var refreshScroll = function () {
 
-        $('body').animate({
+        $('html,body').animate({
           scrollTop: $scope.techFilterName ? $('.currentlyShowing').offset().top : 0
         }, 500);
 
