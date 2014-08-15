@@ -72,7 +72,7 @@ block content
 
               ul.screenshots(ng-if='project.screenshots').list-inline
                 li(ng-repeat='screenshot in project.screenshots | limitTo:1')
-                  img.img-responsive(ng-src='{{screenshot}}', alt='{{project.name}}')
+                  img.img-responsive.col-xs-12(ng-src='{{screenshot}}', alt='{{project.name}}')
                   |  
 
         div.row.footer
