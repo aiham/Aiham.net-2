@@ -177,5 +177,12 @@
     "description": "Convert file formats (csv, json, xml, serialize)",
     "tech": ["PHP"],
     "github": "https://github.com/aiham/FormatConvert"
+  },
+  {
+    "name": "pwd-gen",
+    "description": "Random password generator",
+    "tech": ["Javascript", "Angular"],
+    "github": "https://github.com/aiham/pwd-gen",
+    "url": "http://apps.aiham.net/pwd-gen/"
   }
 ]
