@@ -53,7 +53,7 @@
     "name": "Dymaxion Puzzle",
     "description": "Jigsaw puzzle game using photos of Japan. A demonstration of my Gyudon.js library",
     "honour": "Google HTML5 Open Call 2011 Finalist. Invited to Google Developer Day Tokyo",
-    "url": "http://apps.aiham.net/dymaxion",
+    "url": "http://aiham.github.io/dymaxion/",
     "github": "https://github.com/aiham/dymaxion",
     "tech": ["Javascript", "Canvas", "Gyudon.js"],
     "screenshots": ["/img/dymaxion_1.png", "/img/dymaxion_2.png", "/img/dymaxion_3.png"]
@@ -90,7 +90,7 @@
   {
     "name": "Minesweeper",
     "description": "Minesweeper in Javascript",
-    "url": "http://apps.aiham.net/jsminesweeper/",
+    "url": "http://aiham.github.io/jsMinesweeper/",
     "github": "https://github.com/aiham/jsMinesweeper",
     "tech": ["Javascript", "jQuery"],
     "screenshots": ["/img/minesweeper_1.png", "/img/minesweeper_2.png", "/img/minesweeper_3.png"]
@@ -98,7 +98,7 @@
   {
     "name": "Solar System",
     "description": "Representation of sizes and distances of planets in our solar system. A demonstration of my Gyudon.js library",
-    "url": "http://apps.aiham.net/solarsystemjs/",
+    "url": "http://aiham.github.io/SolarSystemJS/",
     "github": "https://github.com/aiham/SolarSystemJS",
     "tech": ["Javascript", "Gyudon.js", "Canvas"],
     "screenshots": ["/img/solarsystem_1.png", "/img/solarsystem_2.png", "/img/solarsystem_3.png"]
@@ -152,7 +152,8 @@
     "name": "Gyudon.js",
     "description": "2D canvas animations",
     "tech": ["Javascript", "Canvas", "Gyudon.js"],
-    "github": "https://github.com/aiham/Gyudon.js"
+    "github": "https://github.com/aiham/Gyudon.js",
+    "url": "http://aiham.github.io/Gyudon.js/"
   },
   {
     "name": "CLI.php",
@@ -183,6 +184,6 @@
     "description": "Random password generator",
     "tech": ["Javascript", "Angular"],
     "github": "https://github.com/aiham/pwd-gen",
-    "url": "http://apps.aiham.net/pwd-gen/"
+    "url": "http://aiham.github.io/pwd-gen/"
   }
 ]
