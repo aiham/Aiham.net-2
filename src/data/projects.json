@@ -59,6 +59,13 @@
     "screenshots": ["/img/dymaxion_1.png", "/img/dymaxion_2.png", "/img/dymaxion_3.png"]
   },
   {
+    "name": "Petri Dish",
+    "description": "Various animated circle patterns. A demonstration of my Gyudon.js library",
+    "url": "http://aiham.github.io/Petri-Dish/",
+    "github": "https://github.com/aiham/Petri-Dish",
+    "tech": ["Javascript", "Canvas", "Gyudon.js"]
+  },
+  {
     "name": "Chizuatter (iOS)",
     "description": "View your favourite Google My Maps on your iPhone",
     "url": "https://itunes.apple.com/au/app/chizuatter-for-iphone/id354990436",
