@@ -1,0 +1,13 @@
+server:
+    image: nginx
+    ports:
+        - "8080:80"
+    volumes:
+        - ./dist:/var/www/html
+        - ./nginx.conf:/etc/nginx/conf.d/default.conf
+build:
+    build: .
+    volumes:
+        - ./gulpfile.js:/app/gulpfile.js:ro
+        - ./src:/app/src:ro
+        - ./dist:/app/dist
