@@ -202,13 +202,13 @@
 
       };
 
-      $http.get('/api/socials').success(function (data) {
+      $http.get('/data/socials.json').success(function (data) {
 
         $scope.socials = data;
 
       });
 
-      $http.get('/api/projects').success(function (data) {
+      $http.get('/data/projects.json').success(function (data) {
 
         $scope.projects = data;
         processPath();
