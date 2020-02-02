@@ -1,32 +1,32 @@
 [
   {
     "name": "Email",
-    "image": "/img/social_email.png",
+    "image": "img/social_email.png",
     "url": "mailto:aiham@aiham.net"
   },
   {
     "name": "Twitter",
-    "image": "/img/social_twitter.png",
+    "image": "img/social_twitter.png",
     "url": "https://twitter.com/aihamh"
   },
   {
     "name": "Github",
-    "image": "/img/social_github.png",
+    "image": "img/social_github.png",
     "url": "https://github.com/aiham"
   },
   {
     "name": "NPM",
-    "image": "/img/social_npm.png",
+    "image": "img/social_npm.png",
     "url": "https://www.npmjs.org/~aiham"
   },
   {
     "name": "LinkedIn",
-    "image": "/img/social_linkedin.png",
+    "image": "img/social_linkedin.png",
     "url": "http://www.linkedin.com/in/aihamh"
   },
   {
     "name": "Stack Overflow",
-    "image": "/img/social_stackoverflow.png",
+    "image": "img/social_stackoverflow.png",
     "url": "http://stackoverflow.com/users/545726/aiham"
   }
 ]

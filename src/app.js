@@ -145,7 +145,7 @@
           path = initialPath;
         }
 
-        var tech = /^\/tech\/(.+)$/.exec(path);
+        var tech = /\/tech\/(.+)$/.exec(path);
         if (tech && $scope.allTech().indexOf(tech[1]) >= 0) {
           $scope.techFilterName = tech[1];
         } else {
@@ -202,13 +202,13 @@
 
       };
 
-      $http.get('/data/socials.json').success(function (data) {
+      $http.get('data/socials.json').success(function (data) {
 
         $scope.socials = data;
 
       });
 
-      $http.get('/data/projects.json').success(function (data) {
+      $http.get('data/projects.json').success(function (data) {
 
         $scope.projects = data;
         processPath();
