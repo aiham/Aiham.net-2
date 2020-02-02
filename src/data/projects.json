@@ -2,7 +2,7 @@
   {
     "name": "Aiham.net v2",
     "description": "My current personal web page. Includes responsive design",
-    "url": "http://www.aiham.net",
+    "url": "https://aiham.github.io/Aiham.net-2/",
     "github": "https://github.com/aiham/Aiham.net-2",
     "tech": ["CSS", "HTML", "Javascript", "Angular", "Bootstrap", "jQuery", "Express", "Node"],
     "screenshots": ["img/aihamnet2_1.png", "img/aihamnet2_2.png", "img/aihamnet2_3.png"]
@@ -10,7 +10,6 @@
   {
     "name": "Reddit Scrubber",
     "description": "Automated deletion of a Reddit user's posts and/or comments",
-    "url": "http://scrubber.aiham.net",
     "github": "https://github.com/aiham/RedditScrubber",
     "tech": ["HTML", "Javascript", "Node", "Express", "Sequelize", "MySQL", "Reddit API", "Foundation"],
     "screenshots": ["img/scrubber_1.png", "img/scrubber_2.png", "img/scrubber_3.png"]
@@ -53,7 +52,7 @@
     "name": "Dymaxion Puzzle",
     "description": "Jigsaw puzzle game using photos of Japan. A demonstration of my Gyudon.js library",
     "honour": "Google HTML5 Open Call 2011 Finalist. Invited to Google Developer Day Tokyo",
-    "url": "http://aiham.github.io/dymaxion/",
+    "url": "https://aiham.github.io/dymaxion/",
     "github": "https://github.com/aiham/dymaxion",
     "tech": ["Javascript", "Canvas", "Gyudon.js"],
     "screenshots": ["img/dymaxion_1.png", "img/dymaxion_2.png", "img/dymaxion_3.png"]
@@ -61,7 +60,7 @@
   {
     "name": "Petri Dish",
     "description": "Various animated circle patterns. A demonstration of my Gyudon.js library",
-    "url": "http://aiham.github.io/Petri-Dish/",
+    "url": "https://aiham.github.io/Petri-Dish/",
     "github": "https://github.com/aiham/Petri-Dish",
     "tech": ["Javascript", "Canvas", "Gyudon.js"]
   },
@@ -97,7 +96,7 @@
   {
     "name": "Minesweeper",
     "description": "Minesweeper in Javascript",
-    "url": "http://aiham.github.io/jsMinesweeper/",
+    "url": "https://aiham.github.io/jsMinesweeper/",
     "github": "https://github.com/aiham/jsMinesweeper",
     "tech": ["Javascript", "jQuery"],
     "screenshots": ["img/minesweeper_1.png", "img/minesweeper_2.png", "img/minesweeper_3.png"]
@@ -105,7 +104,7 @@
   {
     "name": "Solar System",
     "description": "Representation of sizes and distances of planets in our solar system. A demonstration of my Gyudon.js library",
-    "url": "http://aiham.github.io/SolarSystemJS/",
+    "url": "https://aiham.github.io/SolarSystemJS/",
     "github": "https://github.com/aiham/SolarSystemJS",
     "tech": ["Javascript", "Gyudon.js", "Canvas"],
     "screenshots": ["img/solarsystem_1.png", "img/solarsystem_2.png", "img/solarsystem_3.png"]
@@ -160,7 +159,7 @@
     "description": "2D canvas animations",
     "tech": ["Javascript", "Canvas", "Gyudon.js"],
     "github": "https://github.com/aiham/Gyudon.js",
-    "url": "http://aiham.github.io/Gyudon.js/"
+    "url": "https://aiham.github.io/Gyudon.js/"
   },
   {
     "name": "CLI.php",
@@ -191,6 +190,6 @@
     "description": "Random password generator",
     "tech": ["Javascript", "Angular"],
     "github": "https://github.com/aiham/pwd-gen",
-    "url": "http://aiham.github.io/pwd-gen/"
+    "url": "https://aiham.github.io/pwd-gen/"
   }
 ]

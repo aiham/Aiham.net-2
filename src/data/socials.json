@@ -22,11 +22,11 @@
   {
     "name": "LinkedIn",
     "image": "img/social_linkedin.png",
-    "url": "http://www.linkedin.com/in/aihamh"
+    "url": "https://www.linkedin.com/in/aihamh"
   },
   {
     "name": "Stack Overflow",
     "image": "img/social_stackoverflow.png",
-    "url": "http://stackoverflow.com/users/545726/aiham"
+    "url": "https://stackoverflow.com/users/545726/aiham"
   }
 ]
