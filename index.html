@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <base href="/">
+    <base href="/Aiham.net-2/">
     <title ng-bind="refreshTitle()">Aiham Hammami</title>
     <meta name="author" content="Aiham Hammami">
     <meta name="description" content="Aiham's personal web page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/app.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="app.css">
 </head>
 
 <body ng-controller="MainCtrl">
@@ -24,7 +24,7 @@
                     <div class="col-xs-12 text-center">Web and mobile developer from Sydney, Australia
                         <br>
                     </div>
-                    <div class="col-xs-12 text-center"><a href="/pgp.html" target="_self">PGP Public Key (27181CF9)</a></div>
+                    <div class="col-xs-12 text-center"><a href="pgp.html" target="_self">PGP Public Key (27181CF9)</a></div>
                 </div>
                 <noscript>
                     <div class="row warning">
@@ -33,7 +33,7 @@
                 </noscript>
                 <div ng-hide="socials.length" class="row loading">
                     <div class="col-xs-12 text-center">
-                        <img src="/img/loader.gif" alt="Loading" title="Loading">
+                        <img src="img/loader.gif" alt="Loading" title="Loading">
                     </div>
                 </div>
                 <div ng-show="socials.length" class="row socials">
@@ -50,13 +50,13 @@
                 <div ng-show="techs.length" class="row techs">
                     <div class="col-xs-12">
                         <ul class="list-inline text-center">
-                            <li ng-repeat="tech in (techs = allTech())"><a href="/tech/{{tech}}">{{tech}}</a> </li>
+                            <li ng-repeat="tech in (techs = allTech())"><a href="tech/{{tech}}">{{tech}}</a> </li>
                         </ul>
                     </div>
                 </div>
                 <div class="row currentlyShowing">
                     <div ng-show="techFilterName" class="col-xs-12 text-center">
-                        <h2>{{techFilterName}}<a href="/" class="btn btn-primary btn-xs">x</a></h2>
+                        <h2>{{techFilterName}}<a href="./" class="btn btn-primary btn-xs">x</a></h2>
                     </div>
                 </div>
                 <div ng-show="filteredProjects.length" class="row projects">
@@ -70,7 +70,7 @@
                                 <em>{{project.honour}}</em>
                             </p>
                             <ul class="tech list-inline">
-                                <li ng-repeat="tech in sortTech(project.tech)"><a href="/tech/{{tech}}">{{tech}}</a> </li>
+                                <li ng-repeat="tech in sortTech(project.tech)"><a href="tech/{{tech}}">{{tech}}</a> </li>
                             </ul>
                             <p ng-if="project.github">
                                 <a href="{{project.github}}">
@@ -100,7 +100,7 @@
             </div>
         </div>
     </div>
-    <script src="/app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
