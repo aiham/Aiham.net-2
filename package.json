@@ -16,7 +16,7 @@
   "dependencies": {
     "angular": "1.4.14",
     "bootstrap": "3.3.6",
-    "jquery": "1.11.3",
+    "jquery": "3.5.0",
     "masonry-layout": "3.2.3"
   }
 }
